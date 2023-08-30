@@ -1,0 +1,103 @@
+achsection{
+    box-sizing: border-box;
+  }
+
+  .timeline {
+    width: 100%;
+    height: 480px;
+    padding: 20px;
+    position:relative;
+    box-sizing: border-box;
+    background: #03011f;
+    overflow: auto;
+    display: flex;
+  }
+  .timieline-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: black; 
+  }
+  .timeline-content {
+    max-width: 280px;
+    height: 200px;
+    padding: 20px;
+    margin-left: 10px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    align-self: flex-start;
+    background: whitesmoke;
+    position: relative;
+    border-radius: 10px;
+    margin-right: 10px;
+    box-shadow: rgba(103, 93, 206, 0.42) 0px 19px 38px, rgba(97, 115, 237, 0.32) 0px 15px 12px;
+  }
+  .timeline-content:before {
+    position: absolute;
+    width: calc(100% + 14px);
+    height: 4px;
+    top: calc(100% + 10px);
+    background: #aa63ed;
+    content: "";
+    left: -7px;
+    border-radius: 5px;
+  }
+  
+  .timeline-content:after {
+    position: absolute;
+    width: 4px;
+    height: 25px;
+    top: 100%;
+    left: calc(50% - 10px);
+    background: #aa63ed;
+    content: "";
+  }
+  .timeline-period {
+    position: absolute;
+    top: calc(100% + 25px);
+    background: #aa63ed;
+    padding: 10px;
+    width: 100px;
+    text-align:center;
+    border-radius: 10px;
+    left: calc(50% - 60px);
+    box-shadow: 0px 0px 2px 2px rgba(0,0,0, 0.2);
+  }
+  .timeline-period:before {
+    width: 15px;
+    height: 15px;
+    background: #aa63ed;
+    border-radius: 50%;
+    content: "";
+    position: absolute;
+    top: -20px;
+    left: calc(50% - 6px);
+    z-index: 2;
+  }
+  
+  .timeline-content:nth-child(even) {
+    align-self: flex-end;
+  }
+  .timeline-content:nth-child(even):before {
+      top: -15px; 
+  }
+  .timeline-content:nth-child(even):after {
+      top: -25px;
+  }
+  .timeline-content:nth-child(even) .timeline-period {
+    top: -60px;
+  }
+  .timeline-content:nth-child(even) .timeline-period:before {
+    top: calc(100% + 2px);
+  }
+
+  .textpara{
+    color: black;
+  }
+
+  .timeline-period{
+    color:black;
+  }
+
+
+  /* line break */
+

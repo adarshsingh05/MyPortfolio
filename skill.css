@@ -1,0 +1,290 @@
+.container{
+   
+    display: flex;
+    margin: 15px;
+    width: 420px;
+    height: 430px;
+    padding: 50px 0;
+    border-radius: 15px;
+    background: transparent;
+    row-gap: 30px;
+    flex-direction: column;
+    align-items: center;
+}
+.circular-progress{
+    position: relative;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background: conic-gradient(#7d2ae8 3.6deg, #cec4c4 0deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circular-progress::before{
+    content: "";
+    position: absolute;
+    height: 210px;
+    width: 210px;
+    border-radius: 50%;
+    background-color: #0b0f2a;
+}
+.progress-value{
+    position: relative;
+    font-size: 40px;
+    font-weight: 600;
+    color: #7d2ae8;
+}
+.text{
+    font-size: 30px;
+    font-weight: 500;
+    color: #ffffff;
+}
+#skillsection2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+
+
+/* for js */
+.container2{
+   
+    display: flex;
+    width: 420px;
+    margin: 15px;
+    height: 430px;
+    padding: 50px 0;
+    border-radius: 15px;
+    background: transparent;
+    row-gap: 30px;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: -5px -5px 8px rgba(94, 104, 121, 0.288), 4px 4px 6px rgba(94, 104, 121, 0.288);
+}
+.circular-progress2{
+    position: relative;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background: conic-gradient(#7d2ae8 3.6deg, #cec4c4 0deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circular-progress2::before{
+    content: "";
+    position: absolute;
+    height: 210px;
+    width: 210px;
+    border-radius: 50%;
+    background-color: #0b0f2a;
+}
+.progress-value2{
+    position: relative;
+    font-size: 40px;
+    font-weight: 600;
+    color: #7d2ae8;
+}
+.text{
+    font-size: 30px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+/* for java */
+.container3{
+   
+    display: flex;
+    width: 420px;
+    margin: 15px;
+    height: 430px;
+    padding: 50px 0;
+    border-radius: 15px;
+    background: transparent;
+    row-gap: 30px;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: -5px -5px 8px rgba(94, 104, 121, 0.288), 4px 4px 6px rgba(94, 104, 121, 0.288);
+}
+.circular-progress3{
+    position: relative;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background: conic-gradient(#7d2ae8 3.6deg, #cec4c4 0deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circular-progress3::before{
+    content: "";
+    position: absolute;
+    height: 210px;
+    width: 210px;
+    border-radius: 50%;
+    background-color: #0b0f2a;
+}
+.progress-value3{
+    position: relative;
+    font-size: 40px;
+    font-weight: 600;
+    color: #7d2ae8;
+}
+.text{
+    font-size: 30px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+
+
+
+/* for Python */
+.container4{
+   
+    display: flex;
+    margin: 10px;
+    width: 420px;
+    height: 430px;
+    padding: 50px 0;
+    border-radius: 15px;
+    background: transparent;
+    row-gap: 30px;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: -5px -5px 8px rgba(94, 104, 121, 0.288), 4px 4px 6px rgba(94, 104, 121, 0.288);
+}
+.circular-progress4{
+    position: relative;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background: conic-gradient(#7d2ae8 3.6deg, #cec4c4 0deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circular-progress4::before{
+    content: "";
+    position: absolute;
+    height: 210px;
+    width: 210px;
+    border-radius: 50%;
+    background-color: #0b0f2a;
+}
+.progress-value4{
+    position: relative;
+    font-size: 40px;
+    font-weight: 600;
+    color: #7d2ae8;
+}
+.text{
+    font-size: 30px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+
+
+/* the contact page */
+#contact{
+    /* background-color: black; */
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* width: 500px; */
+}
+
+.contact-title{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    font-family:sans-serif,Arial, Helvetica, sans-serif;
+    padding-bottom: 20px;
+    margin-left: 32px;
+}
+.phone{
+    color: grey;
+    font-size: 18px;
+}
+.envelope{
+    color: grey;
+    font-size: 18px;
+}
+.marker{
+    color: grey;
+    font-size: 18px;
+}
+.fa-phone{
+
+ color: #D43F52; 
+ padding-right: 2rem;
+}
+.fa-envelope-o{
+    color: #D43F52; 
+    padding-right: 2rem;
+}
+.fa-map-marker{
+    color: #D43F52; 
+    padding-right: 2rem;
+}
+
+/* form */
+#name{
+    background-color: black;
+    color: white;
+    margin-bottom: 2rem;
+}
+#email{
+    background-color: black;
+    color: white;
+    margin-bottom: 2rem;
+}
+#message{
+    background-color: black;
+    color: white;
+    margin-bottom: 2rem;
+}
+#send{
+    background-color: #aa63ed;
+    /* border-color:#D43F52; ; */
+    color: white;
+    border-radius: 1px;
+    font-weight:bold ;
+    margin-top: 25px;
+    border-radius: 1rem;
+    width: 200px;
+    height: 40px;
+    margin-left: 230px;
+    
+}
+#send:hover{
+    background-color:white ;
+    color: #D43F52;
+    border-color:white;
+}
+.containerC{
+    width: 100%;
+    background: #03011f;
+}
+.sectioncontact{
+    background: #03011f;
+
+}
+
+
+.containerfooter{
+    width: 100%;
+}
+
+
+
+
+  
