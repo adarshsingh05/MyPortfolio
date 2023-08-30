@@ -267,7 +267,7 @@
 }
 #send:hover{
     background-color:white ;
-    color: #D43F52;
+    color: #aa63ed;
     border-color:white;
 }
 .containerC{
@@ -276,6 +276,7 @@
 }
 .sectioncontact{
     background: #03011f;
+    height: 600px;
 
 }
 
