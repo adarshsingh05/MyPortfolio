@@ -113,9 +113,10 @@ time {
 .card{
   width: 120px;
   margin: 10px;
+  padding: 14px;
   /* height: 170px */
   border: 3px solid #bcc2c5;
-  border-radius: 2%;
+  border-radius: 7%;
   background-color: #03011f;
 }
 
